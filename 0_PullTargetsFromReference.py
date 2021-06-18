@@ -39,7 +39,8 @@ def main(target_file, result_file, reference_fp):
 												 reference_seq.seq))
 
 	# close ref file
-	reference_seqs.close()
+	# Commented out the close step to avoid an error message
+	#reference_seqs.close()
 
 
 if __name__ == '__main__':
