@@ -159,11 +159,11 @@ def main(target_file, reference_database):
 														  hit_gene_name,
 														  hit_name,
 														  mismatches))
-		pruned_bowtie_results.close()
-		bowtie_output.close()
+		#pruned_bowtie_results.close()
+		#bowtie_output.close()
 
-	targets.close()
-	reference_file.close()
+	#targets.close()
+	#reference_file.close()
 
 	print("--- {} seconds ---".format(time.time() - start_time))
 
